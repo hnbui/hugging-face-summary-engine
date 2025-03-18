@@ -18,4 +18,4 @@ jobs:
       - name: Push to hub
         env:
           HUGGINGFACE: ${{ secrets.HUGGINGFACE }}
-        run: git push --force https://hnbui:$HUGGINGFACE@huggingface.co/spaces/hnbui/summary-engine
+        run: git push --force https://hnbui:$HUGGINGFACE@huggingface.co/spaces/hnbui/summary-engine main
